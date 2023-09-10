@@ -25,3 +25,45 @@
         Array = 1 1 3 9 8 2 7 8
 
 */
+
+#include<stdio.h>
+
+int main(){
+
+    int ip[999] , ii = 0; 
+
+    for (int i = 0 ; ip[i] != -1 ; i++)
+    {
+        printf( "Input [%d] : \n" , i ) ; 
+        scanf( "%d" ,&ip[i] ) ; 
+
+        if (ip[i] == -1)
+        {
+            break;
+        }
+        
+        ii += 1 ; 
+    }
+
+    printf( "Index = " );
+
+    for (int i = 0; i < ii ;i++)
+    {
+        printf( "%d " , i );
+    }
+
+    printf( "\nArray = " );
+
+    for (int i = 0; i < ii ; i++)
+    {
+        printf( "%d " , ip[i]) ;
+    }
+    
+    
+    
+
+
+
+
+    return 0 ;
+}

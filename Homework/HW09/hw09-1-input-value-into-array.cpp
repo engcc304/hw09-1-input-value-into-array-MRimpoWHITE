@@ -45,11 +45,11 @@ int main(){
         ii += 1 ; 
     }
 
-    printf( "Index = " );
+    printf( "Index =" );
 
     for (int i = 0; i < ii ;i++)
     {
-        printf( "%d " , i );
+        printf( " %d" , i );
     }
 
     printf( "\nArray = " );
